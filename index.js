@@ -32,3 +32,19 @@ $(document).ready(function(){
       },800);
   },1450);
 
+  function createSquare() {
+    const square = document.createElement('div');
+    square.className = 'square';
+    square.style.width = `${Math.random() * 100}px`;
+    square.style.height = square.style.width;
+    square.style.left = `${Math.random() * 100}vw`;
+  
+    const footer = document.getElementById('footer'); // Replace 'footer' with the id of your footer
+    footer.appendChild(square);
+  
+    setTimeout(() => {
+      footer.removeChild(square);
+    }, 5000);
+  }
+  
+  setInterval(createSquare, 1000);
