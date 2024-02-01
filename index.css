@@ -321,36 +321,39 @@ button:focus {
 .btn_social:hover {
     transform: scale(1.1);
 }
-
 .square {
-    position: absolute; /* Position relative to the nearest positioned ancestor */
-    bottom: 0;
-    background-color: rgba(128, 0, 128, 0.3); /* More transparent */
-    border-radius: 10%; /* Slightly rounded corners */
-    animation: riseRotateFade 25s linear; /* Slower animation */
+        position: absolute;
+        bottom: 0;
+        background-color: rgba(172, 149, 172, 0.3);
+        border-radius: 10%;
+        animation: riseRotateFade 25s linear;
 }
 @keyframes riseRotateFade {
-    0% {
-      transform: translateY(0) rotate(0deg);
-      opacity: 1;
-    }
-    80% {
-      opacity: 1; /* Keep fully visible until 80% of the animation */
-    }
-    90% {
-      opacity: 0.75; /* Start fading at 90% of the animation */
-    }
-    95% {
-      opacity: 0.5; /* More fading at 95% of the animation */
-    }
-    100% {
-      transform: translateY(-200vh) rotate(360deg); /* Increase translateY value */
-      opacity: 0;
-    }
+        0% {
+            transform: translateY(0) rotate(0deg);
+            opacity: 1;
+        }
+        80% {
+            opacity: 1;
+        }
+        90% {
+            opacity: 0.75;
+        }
+        95% {
+            opacity: 0.5;
+        }
+        100% {
+            transform: translateY(-200vh) rotate(360deg);
+            opacity: 0;
+        }
 }
 
 #footer {
-    position: relative; /* Ensure the footer is a positioned element */
-    overflow: hidden; /* Hide child elements outside the bounds of the footer */
-    height: 250px; /* Increase the height of the footer */
+        position: relative;
+        overflow: hidden;
+        height: 250px;
+}
+
+@media (max-width: 1080px) {
+    /* CSS-Regeln für Bildschirmgrößen kleiner oder gleich 1080px */
 }
