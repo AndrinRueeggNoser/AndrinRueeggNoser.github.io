@@ -49,6 +49,8 @@ $(document).ready(function(){
   
   setInterval(createSquare, 1000);
 
-  document.getElementById('back-to-top').addEventListener('click', function() {
-    window.scrollTo(0, 0);
+
+document.getElementById('back-to-top').addEventListener('click', function() {
+  var header = document.getElementById('header');
+  header.scrollIntoView({behavior: "smooth"});
 });

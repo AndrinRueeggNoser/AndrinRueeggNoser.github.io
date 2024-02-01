@@ -354,9 +354,7 @@ button:focus {
         height: 250px;
 }
 
-@media (max-width: 1080px) {
-    /* CSS-Regeln für Bildschirmgrößen kleiner oder gleich 1080px */
-}
+
 
 #back-to-top {
     display: block;
