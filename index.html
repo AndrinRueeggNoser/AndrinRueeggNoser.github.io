@@ -63,20 +63,31 @@
 
              </div>
          
-              <div id="contact">
-                 <h1>Kontakt</h1> 
-                 <form>
-                     <input type="text" placeholder="Name" required>
-                     <input type="email" placeholder="Email" required><br>
-                     <textarea placeholder="Deine Nachricht" required rows="5"></textarea><br>
-                     <button class="btn_one">Nachricht absenden</button>
-                 </form> 
-                 <div id="details">
-                    <a class="btn_social"><i class="fas fa-phone"></i></a>
-                    <a class="btn_social"><i class="fas fa-at"></i></a>
-                    <a class="btn_social"><i class="fab fa-twitter"></i></a>
-                 </div>   
-             </div>
+              
+                 <div id="contact">
+                    <h1>Kontakt</h1> 
+                    <form action="https://formspree.io/f/xpzvpzok" method="POST">
+                        <label>
+                            Your Email:
+                            <input type="email" name="Email">
+                        </label>
+                        <label>
+                            Dein Name:
+                            <textarea name="Name"></textarea>
+                        <label>
+                            Deine Nachricht:
+                            <textarea name="Nachricht"></textarea>
+                        </label>
+                        <!-- your other form fields go here -->
+                        <button type="submit">Absenden</button>
+                    </form>
+
+                    <div id="details">
+                        <a class="btn_social"><i class="fas fa-phone"></i></a>
+                        <a class="btn_social"><i class="fas fa-at"></i></a>
+                        <a class="btn_social"><i class="fab fa-twitter"></i></a>
+                    </div>  
+                </div>
     </div>
 
     
