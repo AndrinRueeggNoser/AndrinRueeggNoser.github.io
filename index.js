@@ -24,7 +24,7 @@ window.onscroll = function () {
       document.body.scrollTop > 80 ||
       document.documentElement.scrollTop > 80
     ) {
-      $("#middle").css("background-size", "150% auto"); 
+      $("#middle").css("background-size", "150% auto");
     } else {
       $("#middle").css("background-size", "100% auto");
     }
@@ -60,4 +60,3 @@ document.getElementById("back-to-top").addEventListener("click", function () {
   var header = document.getElementById("header");
   header.scrollIntoView({ behavior: "smooth" });
 });
-
