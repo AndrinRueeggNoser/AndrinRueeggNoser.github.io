@@ -5,7 +5,7 @@ html {
   font-family: "Comfortaa", cursive;
   font-weight: bold;
   color: #fff;
-  background: rgba(50, 56, 108, 0.215);
+  background: rgba(212, 132, 191, 0.215);
   scroll-behavior: smooth;
 }
 #loading {
@@ -48,7 +48,7 @@ html {
 }
 #title {
   font-size: 40px;
-  background-image: linear-gradient(to left, #4b4747 0%, #4b4747 100%);
+  background-image: linear-gradient(to left, #817979 0%, #574b4b 100%);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -102,7 +102,7 @@ html {
 }
 #portfolio div h1 {
   font-size: 40px;
-  background-image: linear-gradient(to left, #4b4747 0%, #898686 100%);
+  background-image: linear-gradient(to left, #4b4747 0%, #654f4f 100%);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
